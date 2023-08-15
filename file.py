@@ -3,7 +3,7 @@ import requests
 
 class WebsiteTest(unittest.TestCase):
     def test_website_loading(self):
-        url = 'https://www.youtube.com/'  # URL of the website to test
+        url = 'https://www.youtube.com/'  #URL of the website to test
 
         # Send a GET request to the website
         response = requests.get(url)
