@@ -9,5 +9,5 @@ Steps I follow to complete the Task-2
 6. Made a conf file for reverse proxy server to run jenkins on Port 80.
 7. Restart the jenkins and httpd service.
 8. Then go to Route53 service and select hosted zone in which the docker container is running.
-9. Create a new Record of subdomain 'jenkins.jyotioffset.ml' and paste the jenkins server's public IP.
+9. Create a new Record of subdomain "jenkins.jyotioffset.ml" and paste the jenkins server's public IP.
 10. Finally, when you search www.jyotioffset.ml on browser it shows hellow world page and jenkins.jyotioffset.ml shows jenkins web console.
